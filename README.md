@@ -19,6 +19,10 @@ First, open the file _source_code/chat_gui.py_
 
 Secondly, find a function **call_gemini_api(...)** around **line 61**
 
+```
+api_key = os.getenv('GEMINI_API_KEY', 'your-Gemini-API')
+```
+
 Then, replace a placeholder ***'your-Gemini-API'*** with your actual key
 
 ### Step 2: Run the assistant
