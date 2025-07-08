@@ -25,6 +25,10 @@ api_key = os.getenv('GEMINI_API_KEY', 'your-Gemini-API')
 
 Then, replace a placeholder ***'your-Gemini-API'*** with your actual key
 
+```
+api_key = os.getenv('GEMINI_API_KEY', 'AIzaSyD...')
+```
+
 ### Step 2: Run the assistant
 In the source_code folder, launch the assistant with:
 ```
