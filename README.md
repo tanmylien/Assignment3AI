@@ -11,7 +11,7 @@ cd Assignment3AI
 ```
 Make sure Python is installed
 
-### Step 2: Set your Gemini API Key
+### Step 2: Set your Gemini API Key 🔑
 
 To run this project, you need a Gemini API key. You can register for one at _aistudio.google.com_
 
