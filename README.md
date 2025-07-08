@@ -11,6 +11,16 @@ cd Assignment3AI
 ```
 Make sure Python is installed
 
+### Step 2: Set your Gemini API Key
+
+To run this project, you need a Gemini API key. You can register for one at _aistudio.google.com
+
+First, open the file source_code/chat_gui.py
+
+Secondly, find a function call_gemini_api(...) around line 61
+
+Then, replace a placeholder 'your-Gemini-API' with your actual key
+
 ### Step 2: Run the assistant
 In the source_code folder, launch the assistant with:
 ```
