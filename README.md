@@ -89,6 +89,8 @@ Defined UserProfile, Request, and Response in models.py using @dataclass. <br/>
 **Validation / Type-Safety:** <br/>
 Validation logic is in the __post_init__ methods of the data classes to ensure correct data types and constraints. <br/>
 <br/>
+**Exception Handling:** <br/>
+Implemented in main.py (line 51-56), where user age input is checked using a _try-except_ block to catch non-numeric values, which prevents the program from crashing.
 **Enumeration:** <br/>
 CommandType enum in models.py defines valid request types (e.g., MUSIC, STUDY). <br/>
 <br/>
