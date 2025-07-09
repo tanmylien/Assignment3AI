@@ -76,11 +76,11 @@ Handles general, undefined inputs in a friendly, helpful way when no specific ca
 
 To enhance the assistant’s intelligence, I integrated Google’s Gemini API. This allows the assistant to handle general questions or topics that aren’t directly covered by my specialized AI assistants (e.g., Music, Fitness, Study, Psychology, Book).
 
-Gemini is used when:
+**Gemini** is used when:
 
--> The user’s request doesn’t match any known assistant categories, so the program will pass the input to Gemini for a response
+- The user’s request doesn’t match any known assistant categories, so the program will pass the input to Gemini for a response
  
--> This makes the assistant more flexible and realistic, even if no specific module is assigned.
+- This makes the assistant more flexible and realistic, even if no specific module is assigned.
 
 ## Concepts Implemented <br/>
 **Custom Data Types** <br/>
