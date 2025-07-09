@@ -72,6 +72,10 @@ Recommends books using keywords in user descriptions and genre preferences. Also
 💬 **General Assistant (GENERAL)**
 Handles general, undefined inputs in a friendly, helpful way when no specific category is matched. Ensures the conversation continues smoothly even with vague or ambiguous requests.
 
+## 🤖 Gemini API Integration
+
+To enhance the assistant’s intelligence, I integrated Google’s Gemini API. This allows the assistant to handle general questions or topics that aren’t directly covered by my specialized AI assistants (e.g., Music, Fitness, Study, Psychology, Book).
+
 ## Concepts Implemented <br/>
 **Custom Data Types** <br/>
 Defined UserProfile, Request, and Response in models.py using @dataclass. <br/>
@@ -121,4 +125,4 @@ Other than the AI-generated emoji responses and the AI-assisted summarization of
 
 I used AI to generate multiple response variations for each AI Assistant. The ideas were originally mine, I just used AI to help expand the number of hardcoded responses so that users can receive something unique each time.
 
-Because the ChatGPT model I often interact with uses fun emojis to enhance the emotional tone of the conversation, I thought it would be a good idea to add emojis to the AI Assistants’ responses to simulate that experience.
+Because the ChatGPT model I often interact with uses fun emojis to enhance the emotional tone of the conversation, I thought it would be a good idea to add emojis to the AI Assistants’ responses to simulate that experience. 
